@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Claire</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/png" href="android-chrome-512x512.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body class="bg-yellow-300 text-black">
+
+    <nav class="flex justify-between items-center px-8 py-4 border-b-4 border-black bg-white neo-shadow">
+        <h1 class="font-extrabold text-2xl">CLAIRE.</h1>
+        <div class="flex gap-6 font-semibold">
+            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="#skills">Skills</a>
+            <a class="nav-link" href="#projects">Projects</a>
+            <a class="nav-link" href="#experience">Experience</a>
+            <a class="nav-link" href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <section class="px-8 py-20 flex flex-col md:flex-row items-center justify-between relative overflow-visible">
+
+        <div class="max-w-2xl relative">
+            <div class="absolute -top-12 left-[14rem] md:left-[15rem] sticker-float rot-right hidden md:block z-20">
+                <img src="./assets/cherry.png" alt="Cherry" width="80" height="80">
+            </div>
+
+            <div
+                class="inline-block transform -rotate-3 bg-blue-600 text-white border-4 border-black px-6 py-2 shadow-[8px_8px_0px_#000] mb-6">
+                <h2 class="text-5xl md:text-7xl font-black uppercase tracking-tighter">HEYYO!</h2>
+            </div>
+
+            <p class="text-2xl md:text-3xl font-bold mb-4">
+                My name is <span class="underline decoration-4 decoration-blue-600">Ainal Fikri</span>,
+            </p>
+
+            <div class="flex flex-wrap items-center gap-3 text-2xl md:text-4xl font-black uppercase italic">
+                <span>I am a</span>
+                <div
+                    class="bg-yellow-400 border-4 border-black px-4 py-1 shadow-[5px_5px_0px_#000] hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all cursor-default">
+                    Web Developer
+                </div>
+                <span>And</span>
+                <div
+                    class="bg-white border-4 border-black px-4 py-1 shadow-[5px_5px_0px_#2563eb] hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all cursor-default">
+                    IoT Enthusiast
+                </div>
+            </div>
+
+            <p class="mt-8 text-lg font-medium max-w-lg leading-tight">
+                Versatile developer specializing in building scalable web applications and integrated systems, utilizing
+                a wide range of modern frameworks and technologies.
+            </p>
+        </div>
+
+        <div class="mt-10 md:mt-0 relative">
+            <div class="absolute -top-10 -right-10 sticker-float rot-right z-10">
+                <img src="./assets/minecraft-hardcore-heart.png" alt="Heart" width="85" height="85">
+            </div>
+
+            <div
+                class="w-64 h-64 bg-white border-4 border-black neo-shadow flex items-center justify-center text-3xl font-bold relative z-0">
+                FOTO KAMU
+            </div>
+
+            <div class="absolute -bottom-12 -left-12 sticker-float rot-left z-10">
+                <img src="./assets/popop-cat.png" alt="Pop Cat" width="90" height="90">
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="about" class="px-8 py-16 bg-white border-t-4 border-black neo-shadow relative">
+        <div class="absolute -top-10 right-20 sticker-float rot-right hidden md:block z-10">
+            <img src="./assets/scholar-hat.png" alt="Scholar Hat" width="80" height="80">
+        </div>
+
+        <h3 class="text-3xl font-extrabold mb-4">About Me</h3>
+        <p class="max-w-2xl text-lg font-medium">
+            I’m Claire, a developer who loves building web experiences that feel loud, raw, and full of character.
+        </p>
+    </section>
+
+
+
+    <!-- SKILLS -->
+
+    <section id="skills" class="px-8 py-16 relative">
+        <div class="absolute top-0 right-10 sticker-float rot-left hidden md:block">
+            <img src="./assets/banana-cat.png" alt="Banana Cat" width="100" height="100">
+        </div>
+
+        <h3 class="text-3xl font-extrabold mb-8">Skills</h3>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+            <div
+                class="relative group tilt-item p-6 bg-white border-4 border-black neo-shadow hover-lift font-bold flex items-center gap-4 text-orange-400">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                    class="w-10 h-10">
+                HTML
+                <div
+                    class="absolute bottom-full mb-4 left-1/2 -translate-x-1/2 w-56 p-4 bg-white border-4 border-black neo-shadow opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all z-50 text-xs text-black pointer-events-none">
+                    <p class="font-bold border-b-2 border-black mb-2 uppercase">Structure</p>
+                    Developing semantic and accessible web architectures, ensuring seamless multimedia integration and
+                    structured data input handling.
+                </div>
+            </div>
+
+            <div
+                class="relative group tilt-item p-6 bg-white border-4 border-black neo-shadow hover-lift font-bold flex items-center gap-4 text-cyan-600">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" class="w-10 h-10">
+                CSS
+                <div
+                    class="absolute bottom-full mb-4 left-1/2 -translate-x-1/2 w-56 p-4 bg-white border-4 border-black neo-shadow opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all z-50 text-xs text-black pointer-events-none">
+                    <p class="font-bold border-b-2 border-black mb-2 uppercase">Modern Styling</p>
+                    Mastering modern layout techniques and responsive design to create aesthetic, consistent, and
+                    optimized user interfaces across all devices.
+                </div>
+            </div>
+
+            <div
+                class="relative group tilt-item p-6 bg-white border-4 border-black neo-shadow hover-lift font-bold flex items-center gap-4 text-yellow-400">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                    class="w-10 h-10">
+                JavaScript
+                <div
+                    class="absolute bottom-full mb-4 left-1/2 -translate-x-1/2 w-56 p-4 bg-white border-4 border-black neo-shadow opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all z-50 text-xs text-black pointer-events-none">
+                    <p class="font-bold border-b-2 border-black mb-2 uppercase">Core Logic & Interaction</p>
+                    Developing client-side application logic to deliver interactive user experiences and managing
+                    dynamic data integration through APIs.
+                </div>
+            </div>
+
+            <div
+                class="relative group tilt-item p-6 bg-white border-4 border-black neo-shadow hover-lift font-bold flex items-center gap-4 text-purple-600">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" class="w-10 h-10">
+                PHP
+                <div
+                    class="absolute bottom-full mb-4 left-1/2 -translate-x-1/2 w-56 p-4 bg-white border-4 border-black neo-shadow opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all z-50 text-xs text-black pointer-events-none">
+                    <p class="font-bold border-b-2 border-black mb-2 uppercase">Server-Side</p>
+                    Building native web applications and developing custom APIs to bridge mobile platforms (Flutter)
+                    with secure server-side logic and database management.
+                </div>
+            </div>
+
+            <div
+                class="relative group tilt-item p-6 bg-white border-4 border-black neo-shadow hover-lift font-bold flex items-center gap-4 text-red-600">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg"
+                    class="w-10 h-10">
+                Laravel
+                <div
+                    class="absolute bottom-full mb-4 left-1/2 -translate-x-1/2 w-56 p-4 bg-white border-4 border-black neo-shadow opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all z-50 text-xs text-black pointer-events-none">
+                    <p class="font-bold border-b-2 border-black mb-2 uppercase">Framework</p>
+                    Developing complex full-stack systems, including E-commerce with payment gateway integration,
+                    laundry management, and ticketing systems using advanced Eloquent and dashboard logic.
+                </div>
+            </div>
+
+            <div
+                class="relative group tilt-item p-6 bg-white border-4 border-black neo-shadow hover-lift font-bold flex items-center gap-4 text-orange-600">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codeigniter/codeigniter-plain.svg"
+                    class="w-10 h-10">
+                CodeIginiter
+                <div
+                    class="absolute bottom-full mb-4 left-1/2 -translate-x-1/2 w-56 p-4 bg-white border-4 border-black neo-shadow opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all z-50 text-xs text-black pointer-events-none">
+                    <p class="font-bold border-b-2 border-black mb-2 uppercase">MVC Pattern</p>
+                    Creating streamlined administrative tools and information systems, such as expense trackers and
+                    village administration portals using the MVC architecture.
+                </div>
+            </div>
+
+            <div
+                class="relative group tilt-item p-6 bg-white border-4 border-black neo-shadow hover-lift font-bold flex items-center gap-4 text-green-500">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg"
+                    class="w-10 h-10">
+                Android Studio
+                <div
+                    class="absolute bottom-full mb-4 left-1/2 -translate-x-1/2 w-56 p-4 bg-white border-4 border-black neo-shadow opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all z-50 text-xs text-black pointer-events-none font-medium">
+                    <p class="font-bold border-b-2 border-black mb-2 uppercase">Mobile IDE</p>
+                    Utilizing specialized development environments for building, debugging, and managing resources for
+                    Android-based mobile platforms.
+                </div>
+            </div>
+
+            <div
+                class="relative group tilt-item p-6 bg-white border-4 border-black neo-shadow hover-lift font-bold flex items-center gap-4 text-blue-400">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg"
+                    class="w-10 h-10">
+                Flutter
+                <div
+                    class="absolute bottom-full mb-4 left-1/2 -translate-x-1/2 w-56 p-4 bg-white border-4 border-black neo-shadow opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all z-50 text-xs text-black pointer-events-none font-medium">
+                    <p class="font-bold border-b-2 border-black mb-2 uppercase">Mobile Framework</p>
+                    Building cross-platform applications with a focus on responsive UIs and core feature integration to
+                    ensure a seamless mobile user experience.
+                </div>
+            </div>
+
+            <div
+                class="relative group tilt-item p-6 bg-white border-4 border-black neo-shadow hover-lift font-bold flex items-center gap-4 text-green-800">
+                <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" class="w-10 h-10">
+                Tailwind
+                <div
+                    class="absolute bottom-full mb-4 left-1/2 -translate-x-1/2 w-56 p-4 bg-white border-4 border-black neo-shadow opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all z-50 text-xs text-black pointer-events-none">
+                    <p class="font-bold border-b-2 border-black mb-2 uppercase">Utility-First CSS</p>
+                    Specializing in rapid UI development and maintaining design consistency through custom utility
+                    classes and design tokens across multiple web projects.
+                </div>
+            </div>
+
+            <div
+                class="relative group tilt-item p-6 bg-white border-4 border-black neo-shadow hover-lift font-bold flex items-center gap-4 text-blue-500">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                    class="w-10 h-10">
+                React
+                <div
+                    class="absolute bottom-full mb-4 left-1/2 -translate-x-1/2 w-56 p-4 bg-white border-4 border-black neo-shadow opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all z-50 text-xs text-black pointer-events-none">
+                    <p class="font-bold border-b-2 border-black mb-2 uppercase">Modern Frontend Library</p>
+                    Currently exploring modern frontend workflows, focusing on component-based architecture and state
+                    management to build scalable Single Page Applications (SPA).
+                </div>
+            </div>
+
+            <div
+                class="relative group tilt-item p-6 bg-white border-4 border-black neo-shadow hover-lift font-bold flex items-center gap-4 text-blue-600">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vite/vite-original.svg" class="w-10 h-10">
+                Vite
+                <div
+                    class="absolute bottom-full mb-4 left-1/2 -translate-x-1/2 w-56 p-4 bg-white border-4 border-black neo-shadow opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all z-50 text-xs text-black pointer-events-none">
+                    <p class="font-bold border-b-2 border-black mb-2 uppercase">Modern Build Tool</p>
+                    Optimizing the frontend development experience and asset bundling to ensure fast performance and a
+                    smooth visual appearance in web projects.
+                </div>
+            </div>
+
+            <div
+                class="relative group tilt-item p-6 bg-white border-4 border-black neo-shadow hover-lift font-bold flex items-center gap-4 text-teal-600">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg"
+                    class="w-10 h-10">
+                IoT
+                <div
+                    class="absolute bottom-full mb-4 left-1/2 -translate-x-1/2 w-56 p-4 bg-white border-4 border-black neo-shadow opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all z-50 text-xs text-black pointer-events-none">
+                    <p class="font-bold border-b-2 border-black mb-2 uppercase">Hardware Integration</p>
+                    Exploring hardware-software logic through simulations, with a focus on developing synchronized
+                    display systems and real-time data monitoring using Wokwi.
+                </div>
+            </div>
+
+            <div
+                class="relative group tilt-item p-6 bg-white border-4 border-black neo-shadow hover-lift font-bold flex items-center gap-4 text-blue-800">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+                    class="w-10 h-10">
+                MySQL
+                <div
+                    class="absolute bottom-full mb-4 left-1/2 -translate-x-1/2 w-56 p-4 bg-white border-4 border-black neo-shadow opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all z-50 text-xs text-black pointer-events-none">
+                    <p class="font-bold border-b-2 border-black mb-2 uppercase">Database</p>
+                    Designing and managing relational databases to store application data efficiently, ensuring seamless
+                    integration with back-end frameworks like Laravel.
+                </div>
+            </div>
+
+
+
+            <div
+                class="relative group tilt-item p-6 bg-white border-4 border-black neo-shadow hover-lift font-bold flex items-center gap-4">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                    class="w-10 h-10">
+                GitHub
+                <div
+                    class="absolute bottom-full mb-4 left-1/2 -translate-x-1/2 w-56 p-4 bg-white border-4 border-black neo-shadow opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all z-50 text-xs text-black pointer-events-none">
+                    <p class="font-bold border-b-2 border-black mb-2 uppercase">Version Control</p>
+                    Maintaining project history and ensuring safe code storage through cloud repositories, recently used
+                    for managing full-stack application development.
+                </div>
+            </div>
+
+
+            <div
+                class="relative group tilt-item p-6 bg-white border-4 border-black neo-shadow hover-lift font-bold flex items-center gap-4 text-orange-500">
+                <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" class="w-10 h-10">
+                Postman
+                <div
+                    class="absolute bottom-full mb-4 left-1/2 -translate-x-1/2 w-56 p-4 bg-white border-4 border-black neo-shadow opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all z-50 text-xs text-black pointer-events-none font-medium">
+                    <p class="font-bold border-b-2 border-black mb-2 uppercase">API Testing</p>
+                    Testing and documenting API endpoints to ensure efficient data communication between server-side
+                    logic and mobile-client applications.
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="projects" class="px-8 py-16 bg-white border-t-4 border-black neo-shadow relative">
+        <div class="absolute -top-12 left-10 sticker-float rot-right hidden md:block z-10">
+            <img src="./assets/kirby.png" alt="Kirby" width="80" height="80">
+        </div>
+
+        <h3 class="text-3xl font-extrabold mb-8">Projects</h3>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+
+            <div class="tilt-item p-6 border-4 border-black bg-yellow-300 neo-shadow hover-lift">
+                <h4 class="font-extrabold text-xl">Project 1</h4>
+                <p class="mt-2 font-medium">Neobrutalist UI concept for web apps.</p>
+            </div>
+
+            <div class="tilt-item p-6 border-4 border-black bg-blue-400 neo-shadow hover-lift">
+                <h4 class="font-extrabold text-xl">Project 2</h4>
+                <p class="mt-2 font-medium">Creative landing page with raw layout.</p>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <section id="experience" class="px-8 py-16 bg-yellow-300 border-t-4 border-black neo-shadow">
+        <h3 class="text-3xl font-extrabold mb-8">Experience</h3>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+
+            <div class="tilt-item p-6 border-4 border-black bg-white neo-shadow hover-lift">
+                <h4 class="font-extrabold text-xl">Frontend Developer</h4>
+                <p class="mt-2 font-medium">Membangun UI modern dan brutal.</p>
+                <span class="font-bold text-blue-700">2023 - Present</span>
+            </div>
+
+            <div class="tilt-item p-6 border-4 border-black bg-white neo-shadow hover-lift">
+                <h4 class="font-extrabold text-xl">UI/UX Designer</h4>
+                <p class="mt-2 font-medium">Merancang interface bold.</p>
+                <span class="font-bold text-blue-700">2021 - 2023</span>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact" class="px-8 py-20 text-center">
+        <h3 class="text-3xl font-extrabold mb-6">Get In Touch</h3>
+
+        <a href="mailto:youremail@example.com"
+            class="tilt-item inline-block px-8 py-4 bg-black text-white border-4 border-black contact-btn neo-shadow hover-lift font-bold text-lg">
+            Contact Me
+        </a>
+    </section>
+
+
+
+
+
+
+    <footer class="mt-20 px-8 pb-10">
+        <div class="bg-white border-4 border-black neo-shadow p-8">
+            <h2 class="text-2xl font-extrabold mb-4">CLAIRE — Portfolio</h2>
+            <p class="font-semibold mb-2">
+                Designed in Neo-Brutalism • Built with ❤️ and chaos
+            </p>
+            <p class="font-medium">
+                © 2026 Claire. All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
